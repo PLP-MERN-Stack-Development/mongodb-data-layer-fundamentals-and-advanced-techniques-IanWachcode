@@ -131,7 +131,108 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
-  }
+  },
+  {
+    title: "Fire & Blood",
+    author: "George R. R. Martin",
+    genre: "Fantasy",
+    published_year: 2018,
+    price: 11.60,
+    in_stock: true,
+    pages: 736,
+    publisher: "Bantam Books"
+  },
+  {
+    title: "Atomic Habits",
+    author: "James Clear",
+    genre: "Self-help",
+    published_year: 2018,
+    price: 20.00,
+    in_stock: true,
+    pages: 320,
+    publisher: "Avery"
+  },
+  {
+    title: "Deep Work",
+    author: "Cal Newport",
+    genre: "Productivity",
+    published_year: 2016,
+    price: 17.00,
+    in_stock: true,
+    pages: 304,
+    publisher: "Grand Central Publishing"
+  },
+  {
+    title: "The Atlas of AI",
+    author: "Kate Crawford",
+    genre: "Non-fiction",
+    published_year: 2021,
+    price: 18.99,
+    in_stock: true,
+    pages: 256,
+    publisher: "Yale University Press"
+  },
+  {
+    title: "The Midnight Library",
+    author: "Matt Haig",
+    genre: "Fiction",
+    published_year: 2020,
+    price: 13.50,
+    in_stock: true,
+    pages: 304,
+    publisher: "Viking"
+  },
+   {
+    title: "Children of Time",
+    author: "Adrian Tchaikovsky",
+    genre: "Science Fiction",
+    published_year: 2015,
+    price: 11.50,
+    in_stock: false,
+    pages: 640,
+    publisher: "Orbit"
+  },
+  {
+    title: "The Game of Thrones",
+    author: "George R. R. Martin",
+    genre: "Historical fantasy",
+    published_year: 1996,
+    price: 39.99,
+    in_stock: false,
+    pages: 694,
+    publisher: "Bantam Spectra (US), HarperCollins Voyager (UK)"
+  },
+  {
+    title: "The River Between",
+    author: "Ngũgĩ wa Thiong'o",
+    genre: "Novel",
+    published_year: 1965,
+    price: 39.99,
+    in_stock: true,
+    pages: 352,
+    publisher: "Heinemann-African Writers Series"
+  },
+  {
+    title: "Thinking Fast and Slow",
+    author: "Daniel Kahneman",
+    genre: "Non-fiction",
+    published_year: 2011,
+    price: 12.03,
+    in_stock: true,
+    pages: 498,
+    publisher: "Farrar, Straus and Giroux"
+  },
+  {
+    title: "The Pragmatic Programmer",
+    author: "harles Duhigg",
+    genre: "Self-Help",
+    published_year: 2012,
+    price: 15.99,
+    in_stock: false,
+    pages: 317,
+    publisher: "Random House Trade Paperbacks"
+  },
+
 ];
 
 // Function to insert books into MongoDB
