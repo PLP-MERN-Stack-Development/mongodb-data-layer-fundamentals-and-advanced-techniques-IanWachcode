@@ -4,7 +4,7 @@
 const { MongoClient } = require('mongodb');
 
 // Connection URI (replace with your MongoDB connection string if using Atlas)
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://WachiraKe:<db_password>@cluster0.xenjggz.mongodb.net/';
 
 // Database and collection names
 const dbName = 'plp_bookstore';
@@ -223,7 +223,7 @@ const books = [
     publisher: "Farrar, Straus and Giroux"
   },
   {
-    title: "The Pragmatic Programmer",
+    title: "The Power of Habit",
     author: "harles Duhigg",
     genre: "Self-Help",
     published_year: 2012,
